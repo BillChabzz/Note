@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
 
             fab:fab_size="mini"
-            fab:fab_label="Menu item 1" />
+            fab:fab_label="@string/delete_notes" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab2"
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
 
             fab:fab_size="mini"
-            fab:fab_label="Menu item 2" />
+            fab:fab_label="@string/share_note" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab3"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
 
             fab:fab_size="mini"
-            fab:fab_label="@string/lorem_ipsum" />
+            fab:fab_label="@string/new_note" />
 
     </com.github.clans.fab.FloatingActionMenu>
 </FrameLayout>

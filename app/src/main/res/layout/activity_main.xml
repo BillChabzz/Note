@@ -16,7 +16,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/floating_menus_activity" />
-
+    <include layout="@layout/edit_text_main"/>
 
 
 </android.support.design.widget.CoordinatorLayout>
