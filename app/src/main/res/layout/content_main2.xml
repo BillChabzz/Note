@@ -6,19 +6,53 @@
     xmlns:app="com.github.library.bubbleview.BubbleImageView"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#1ABC9C">
 
     <com.github.library.bubbleview.BubbleTextVew
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello BubbleTextVew"
+        android:text="Note"
         android:padding="10dp"
         app:arrowWidth="8dp"
         app:angle="8dp"
         app:arrowHeight="10dp"
         app:arrowPosition="14dp"
         app:arrowLocation="right"
-        app:bubbleColor="#7EC0EE"/>
+        app:bubbleColor="#90A4AE"
+        android:layout_marginTop="50dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="150dp" />
+
+    <com.github.library.bubbleview.BubbleImageView
+        android:id="@+id/bubble_image"
+        android:background="@drawable/note.png"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        app:arrowWidth="10dp"
+        app:angle="6dp"
+        app:arrowHeight="8dp"
+        app:arrowPosition="15dp"
+        app:arrowLocation="top"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/note" />
+
+    <com.github.library.bubbleview.BubbleTextVew
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try one"
+        android:padding="10dp"
+        app:arrowWidth="8dp"
+        app:angle="8dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="14dp"
+        app:arrowLocation="right"
+        app:bubbleColor="#12C700"
+        android:textColor="#fcf9f9"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp" />
+
 
     <include layout="@layout/floating_menus_activity"
          />
