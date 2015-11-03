@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:text="Hello BubbleTextVew"
         android:padding="10dp"
-        android:textColor="@android:color/blue"
         app:arrowWidth="8dp"
         app:angle="8dp"
         app:arrowHeight="10dp"
@@ -22,5 +21,5 @@
         app:bubbleColor="#7EC0EE"/>
 
     <include layout="@layout/floating_menus_activity"
-        android:layout_height="70dp" />
+         />
 </LinearLayout>
